@@ -49,7 +49,7 @@ Hardware has been designed to use the smallest possible PCB. Pin header have bee
 Schematic, PCB, 3D views are designed with KiCad 9 with the following plugins:
 
 * Interactive Html Bom [🔗](https://github.com/openscopeproject/InteractiveHtmlBom)  
-  See the bill of material [here](docs/ibom.html)
+  See the bill of material [here](https://xavierberger.github.io/RotaryEncoderDebounced/ibom.html)
 * KiCAD JLCPCB tools [🔗](https://github.com/bouni/kicad-jlcpcb-tools)  
   This plugin allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, generate production files for JLCPCB and much more.
 * Fabrication Toolkit [🔗](https://github.com/bennymeg/Fabrication-Toolkit)  

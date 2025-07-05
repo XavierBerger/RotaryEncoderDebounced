@@ -1,0 +1,162 @@
+{
+  "jobs": [
+    {
+      "description": "Schematic PDF",
+      "id": "95ab8683-8737-4326-acd2-6b65c59811bd",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classique",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.016,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": ".",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "5fbbd91c-eded-475c-93c3-2de821a6a872",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classique",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "svg",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.016,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": ".",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_svg"
+    },
+    {
+      "description": "Upper View",
+      "id": "11c31fde-748f-4b43-ad15-ff0e0aa8907c",
+      "settings": {
+        "bg_style": "opaque",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 500,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "UpperView.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": -0.75,
+        "quality": "basic",
+        "rotation_x": 45.0,
+        "rotation_y": 180.0,
+        "rotation_z": 220.0,
+        "side": "left",
+        "width": 500,
+        "zoom": 0.5
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "Bottom View PNG",
+      "id": "d3c00427-a88d-4192-8d07-469bef6dcd49",
+      "settings": {
+        "bg_style": "opaque",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 500,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "BottomView.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "basic",
+        "rotation_x": 5.0,
+        "rotation_y": -5.0,
+        "rotation_z": -90.0,
+        "side": "top",
+        "width": 500,
+        "zoom": 0.6
+      },
+      "type": "pcb_render"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "bd613e88-3c7a-45fe-ac18-9161a5435575",
+      "only": [],
+      "settings": {
+        "output_path": "../docs"
+      },
+      "type": "folder"
+    }
+  ]
+}

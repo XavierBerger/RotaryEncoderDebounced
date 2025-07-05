@@ -71,7 +71,7 @@ The cost of the PCB fabrication and SMD assembly (so without the rotary encoder 
 On the oscilloscope, we can see a clean signal. The noise has been filtered-out.
 
 ![alt text](docs/OscilloscopeDebounced.png)  
-*Signal captured on a rotary encoder hardwaredebouncer*
+*Signal captured on a rotary encoder with hardware debouncer*
 
 The resulting signal captured with a logical analyser is also clean.
 

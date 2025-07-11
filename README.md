@@ -1,8 +1,11 @@
 # Rotary Encoder Debounced
 
+A rotary encoder tracks shaft rotation by outputting pulses. However, mechanical switches in encoders suffer from contact bounce, causing false signals.
+
 This projet propose a solution to debounced Rotary Encoder signal at hardware level.
 
-A rotary encoder tracks shaft rotation by outputting pulses. However, mechanical switches in encoders suffer from contact bounce, causing false signals.
+![alt text](docs/Oscilloscope.png) ![alt text](docs/FromTo.png) ![alt text](docs/OscilloscopeDebounced.png)
+
 
 ## The Problem
 

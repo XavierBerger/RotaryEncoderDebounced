@@ -69,6 +69,8 @@ Components have been choosen to be "**Basic**" parts of JLCPCB to reduce the man
 
 The cost of the PCB fabrication and SMD assembly (so without the rotary encoder and pin headers) is about 7€ for 5 pieces.
 
+![alt text](docs/PCBA.png)
+
 ## Analysis of results
 
 On the oscilloscope, we can see a clean signal. The noise has been filtered-out.
